@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TravelBloom </title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    
+    <header class="hero">
+        <div class="navbar">
+            <div class="branding">
+                <img src="pplane.png" alt="TravelBloom Logo" class="logo-img" />
+                <div class="logo-text">TravelBloom</div>
+            </div>
+
+            <nav class="nav-links">
+                    <a href="travel_recommendation.html">Home</a>
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact us</a>
+            </nav>
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Enter a destination or keyword" 
+                    />
+                <button class="searchbtn" id="searchbtn">Search</button>
+                <button class="clearbtn" id="clearbtn">Clear</button>
+            </div>                
+            
+        </div>
+    </header>
+    <div class="overlay">
+        <h1>EXPLORE <br>
+            DREAM <br>
+            DESTINATION</h1>
+        <p>
+            It encourages exploration of unfamiliar territories, embracing diverse        cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+          <button>BOOK NOW</button>
+    
+        <div class="social-icons">
+            <a href="#"><img src="fb.png" alt="Facebook" /></a>
+            <a href="#"><img src="x.png" alt="Twitter" /></a>
+            <a href="#"><img src="IG.png" alt="Instagram" /></a>
+        </div>
+    </div>
+        <!-- 🔽 Search Results Dropdown Container -->
+    <div id="dropdown" style="display: none;" class="dropdown-container">
+        <button id="close-btn" class="close-btn">✖</button>
+        <div id="resultsContainer" class="results-container">
+            <!-- Search results will be inserted here dynamically -->
+        </div>
+    </div>
+
+<script src="travel_recommendation.js"></script>
+    
+</body>    
+</html>
